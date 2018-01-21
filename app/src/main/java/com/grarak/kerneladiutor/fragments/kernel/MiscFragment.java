@@ -30,6 +30,7 @@ import com.grarak.kerneladiutor.utils.kernel.misc.PowerSuspend;
 import com.grarak.kerneladiutor.utils.kernel.misc.Vibration;
 import com.grarak.kerneladiutor.utils.kernel.misc.Wakelocks;
 import com.grarak.kerneladiutor.views.recyclerview.CardView;
+import com.grarak.kerneladiutor.views.recyclerview.DescriptionView;
 import com.grarak.kerneladiutor.views.recyclerview.GenericSelectView;
 import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
 import com.grarak.kerneladiutor.views.recyclerview.SeekBarView;
@@ -251,6 +252,14 @@ public class MiscFragment extends RecyclerViewFragment {
                 -> mMisc.setHostname(value, getActivity()));
 
         networkCard.addItem(hostname);
+
+        if (Misc.hasWireguard()) {
+            DescriptionView wireguard = new DescriptionView();
+            wireguard.setTitle(getString(R.string.wireguard_title));
+            wireguard.setSummary(getString(R.string.version) + ": " + Misc.getWireguard());
+
+            networkCard.addItem(wireguard);
+        }
 
         items.add(networkCard);
     }
