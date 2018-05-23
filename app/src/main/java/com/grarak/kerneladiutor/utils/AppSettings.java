@@ -255,6 +255,14 @@ public class AppSettings {
         return Prefs.getString(PREVIEW_PICTURE, null, context);
     }
 
+    public static int getInt(String key, int defaults, Context context) {
+        return Prefs.getInt(key, defaults, context);
+    }
+
+    public static void saveInt(String key, int value, Context context) {
+        Prefs.saveInt(key, value, context);
+    }
+
     public static void savePreviewPicture(String uri, Context context) {
         Prefs.saveString(PREVIEW_PICTURE, uri, context);
     }

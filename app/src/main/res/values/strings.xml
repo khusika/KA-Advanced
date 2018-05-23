@@ -915,4 +915,18 @@
     <string name="feature_function_summary">If you don\'t know what this control does, then simply don\'t touch it. Please do a proper research before playing with your expensive hardware.</string>
     <string name="add_new_features">Could you add feature x and y?</string>
     <string name="add_new_features_summary">That\'s hard to say. I try to add all features, but it\'s hard to make this app universal for all devices.</string>
+
+    <!-- SPECTRUM -->
+    <string name="spectrum">Spectrum</string>
+    <string name="profileTile">Spectrum Profile</string>
+    <string name="spec_title">SPECTRUM Profile Manager</string>
+    <string name="spec_info">Adaptation of the Spectrum Manager of frap129.\nSelect one of the 4 predefined profiles.</string>
+    <string name="spec_balanced">Balanced</string>
+    <string name="spec_balanced_summary">The default kernel profile, known for its smooth performance in basic tasks while maintaining fantastic battery.</string>
+    <string name="spec_performance">Performance</string>
+    <string name="spec_performance_summary">Tuned for top tier performance in standard tasks with many less regressions than Balanced, but maintains battery by limiting graphics.</string>
+    <string name="spec_battery">Battery</string>
+    <string name="spec_battery_summary">Ultra-conservative profile that lets performance take a hit in older to archive long-lasting battery life.</string>
+    <string name="spec_gaming">Gaming</string>
+    <string name="spec_gaming_summary">Need that extra 10 FPS? I gotchu. Identical to performance in most areas other than the unlocked Graphics performance.</string>
 </resources>
