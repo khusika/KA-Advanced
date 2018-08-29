@@ -26,7 +26,6 @@ import android.content.ServiceConnection;
 import android.os.IBinder;
 
 import com.grarak.kerneladiutor.database.Settings;
-import com.grarak.kerneladiutor.services.monitor.Monitor;
 import com.grarak.kerneladiutor.utils.Log;
 
 import java.util.LinkedHashMap;
@@ -93,23 +92,6 @@ public class Control {
         if (command.startsWith("#")) return;
         RootUtils.runCommand(command);
         Log.i(command);
-        if (context != null) {
-            context.bindService(new Intent(context, Monitor.class), new ServiceConnection() {
-                        @Override
-                        public void onServiceConnected(ComponentName componentName,
-                                                       IBinder iBinder) {
-                            Monitor.MonitorBinder monitorBinder =
-                                    (Monitor.MonitorBinder) iBinder;
-                            monitorBinder.onSettingsChange();
-                            context.unbindService(this);
-                        }
-
-                        @Override
-                        public void onServiceDisconnected(ComponentName componentName) {
-                        }
-                    },
-                    Context.BIND_AUTO_CREATE);
-        }
     }
 
     private synchronized void run(final String command, final String category, final String id,
