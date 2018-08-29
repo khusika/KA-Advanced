@@ -43,8 +43,6 @@ import com.grarak.kerneladiutor.utils.ViewUtils;
 
 import java.util.Locale;
 
-import io.fabric.sdk.android.Fabric;
-
 /**
  * Created by willi on 14.04.16.
  */
@@ -52,11 +50,6 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        // Don't initialize analytics with debug build
-        if (!BuildConfig.DEBUG) {
-            Fabric.with(this, new Crashlytics());
-        }
-
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         Themes.Theme theme = Themes.getTheme(this, Themes.isDarkTheme(this));
         if (Themes.isDarkTheme(this)) {
