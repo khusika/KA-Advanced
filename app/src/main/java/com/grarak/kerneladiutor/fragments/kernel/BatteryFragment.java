@@ -48,6 +48,7 @@ public class BatteryFragment extends RecyclerViewFragment {
 
     private StatsView mLevel;
     private StatsView mVoltage;
+    private StatsView mChargingStatus;
 
     private int mBatteryLevel;
     private int mBatteryVoltage;
@@ -70,6 +71,10 @@ public class BatteryFragment extends RecyclerViewFragment {
             blxInit(items);
         }
         chargeRateInit(items);
+        mChargingStatus = new StatsView();
+        if (Battery.haschargingstatus()) {
+            items.add(mChargingStatus);
+        }
     }
 
     @Override
@@ -192,6 +197,17 @@ public class BatteryFragment extends RecyclerViewFragment {
         }
         if (mVoltage != null) {
             mVoltage.setStat(mBatteryVoltage + getString(R.string.mv));
+        }
+        if (mChargingStatus != null) {
+	    float chargingrate = ((mBattery.getchargingstatus() / 1000) * -1);
+	    if (mBattery.isDischarging()){
+		mChargingStatus.setTitle("Charge Rate");
+		mChargingStatus.setStat(0.0 + (" mA"));
+	    }
+	    else {
+		mChargingStatus.setTitle("Charge Rate");
+		mChargingStatus.setStat(String.valueOf(chargingrate) + (" mA"));
+	    }
         }
     }
 
