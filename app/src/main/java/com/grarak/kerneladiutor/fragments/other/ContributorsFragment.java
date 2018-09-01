@@ -74,7 +74,7 @@ public class ContributorsFragment extends RecyclerViewFragment {
                     Contributors contributors = new Contributors(raw);
                     if (contributors.readable()) {
                         for (final Contributors.Contributor contributor : contributors.getContributors()) {
-                            if (contributor.getLogin().equals("Grarak")) {
+                            if (contributor.getLogin().equals("khusika")) {
                                 continue;
                             }
                             addItem(new ContributorView(contributor));
@@ -89,7 +89,7 @@ public class ContributorsFragment extends RecyclerViewFragment {
                     error();
                 }
             });
-            mWebpageReader.get("https://api.github.com/repos/Grarak/KernelAdiutor/contributors");
+            mWebpageReader.get("https://api.github.com/repos/khusika/KA-Advanced/contributors");
         }
     }
 
