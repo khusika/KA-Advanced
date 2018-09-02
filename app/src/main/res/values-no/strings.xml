@@ -75,8 +75,7 @@
   <string name="initd">Init.d</string>
   <string name="settings">Innstillinger</string>
   <string name="about">Om</string>
-  <string name="help">Hjelp</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Frakoblet</string>
   <string name="core">Kjernen %d</string>
   <string name="uptime">Driftstid</string>

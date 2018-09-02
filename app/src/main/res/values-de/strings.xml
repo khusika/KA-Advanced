@@ -96,8 +96,7 @@
   <string name="settings">Einstellungen</string>
   <string name="about">Über uns</string>
   <string name="contributors">Mitwirkende</string>
-  <string name="help">Hilfe</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Abgeschaltet</string>
   <string name="core">Kern %d</string>
   <string name="gpu_freq">GPU-Frequenz</string>
@@ -842,16 +841,4 @@ sicher?</string>
   <string name="commits">%d Änderungen</string>
   <string name="no_internet">Bitte überprüfe deine Internetverbindung!</string>
   <!-- Help -->
-  <string name="misspelled">Wieso hast du \"Adiutor\" falsch geschrieben?</string>
-  <string name="misspelled_summary">Adiutor ist lateinisch und bedeutet Helfer.</string>
-  <string name="have_to_donate">Muss ich spenden, um die Premium Funktionen zu nutzen?</string>
-  <string name="have_to_donate_summary">Nein, diese App ist Open Source. Du kannst sie leicht selbst schreiben. Spendefunktion ist standardmäßig aktiviert, sobald du eine debugging Apk erstellt hast,brauchst du die Codezeilen nicht zu verändern.</string>
-  <string name="cpu_freq_not_sticking">Warum hällt meine ausgewählte CPU-Frequenz an?</string>
-  <string name="cpu_freq_not_sticking_summary">Dies kann mehrere Gründe haben. Viele Kernel haben heutzutage ihre eigenen Hotplug-Systeme, die die CPU-Frequenz steuern. CyanogenMod hat eigene CPU-Boost Ausführungen, die die Frequenz steuern. Ich empfehle dir die CPU-Frequenzen nicht verändern und diese Aufgabe dem Kernel überlassen.Das zählt auch für andere Funktionen wenn sie nicht anhalten. Das liegt am Kernel/System welches keine Veränderungen zulässt.</string>
-  <string name="feature_not_appearing">Warum werden die Funktionen x und y nicht angezeigt??</string>
-  <string name="feature_not_appearing_summary">Nur von Ihrem Gerät unterstützte Funktionen werden angezeigt!</string>
-  <string name="feature_function">Was macht die Einstellung \"X\"?</string>
-  <string name="feature_function_summary">Wenn Sie nicht wissen, was diese Einstellung tut, verändern Sie diese auch nicht. Informieren Sie sich vorher gut, bevor Sie mit Ihrer teuren Hardware experimentieren.</string>
-  <string name="add_new_features">Kannst du die Funktion x und y hinzufügen?</string>
-  <string name="add_new_features_summary">Das ist schwer zu sagen. Ich versuche alle Features hinzuzufügen, aber es ist schwer diese App universal für alle Geräte zu machen.</string>
 </resources>

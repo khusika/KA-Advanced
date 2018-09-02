@@ -95,8 +95,7 @@
   <string name="settings">Postavke</string>
   <string name="about">O aplikaciji</string>
   <string name="contributors">Suradnici</string>
-  <string name="help">Pomoć</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Neaktivna</string>
   <string name="core">Jezgra %d</string>
   <string name="gpu_freq">Frekvencija GPU-a</string>
@@ -483,5 +482,4 @@
   <!-- About -->
   <!-- Contributors -->
   <!-- Help -->
-  <string name="have_to_donate_summary">Ne, ova aplikacija je aplikacija otvorenog koda. Lako je možete sami izgraditi. Značajke donacijske aplikacije omogućene su prema zadanim postavkama nakon što izradite. apk za uklanjanje pogrešaka pa nema potrebe za promjenom koda.</string>
 </resources>

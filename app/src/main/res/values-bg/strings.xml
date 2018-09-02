@@ -86,8 +86,7 @@
   <string name="settings">Настройки</string>
   <string name="about">За приложението</string>
   <string name="contributors">Сътрудници</string>
-  <string name="help">Помощ</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Извън линия</string>
   <string name="core">Ядро %d</string>
   <string name="gpu_freq">Честота на GPU</string>

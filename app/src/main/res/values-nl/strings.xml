@@ -94,8 +94,7 @@
   <string name="settings">Instellingen</string>
   <string name="about">Over</string>
   <string name="contributors">Medewerkers</string>
-  <string name="help">Help</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Offline</string>
   <string name="core">Kern %d</string>
   <string name="gpu_freq">GPU Frequentie</string>

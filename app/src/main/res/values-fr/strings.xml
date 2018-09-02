@@ -95,8 +95,7 @@
   <string name="settings">Réglages</string>
   <string name="about">À propos</string>
   <string name="contributors">Contributeurs</string>
-  <string name="help">Aide</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Hors-Ligne</string>
   <string name="core">Coeur %d</string>
   <string name="gpu_freq">Fréquence du GPU</string>
@@ -621,6 +620,4 @@
   <!-- About -->
   <!-- Contributors -->
   <!-- Help -->
-  <string name="have_to_donate_summary">Non, cette application est open source. Vous pouvez facilement la compiler. Les fonctions de la donation sont activés par défaut lorsque vous compilez un apk, donc il y a aucun besoin de changer des lignes de code.</string>
-  <string name="cpu_freq_not_sticking">Pourquoi la fréquence CPU que j\'ai choisie n\'est pas conservée ?</string>
 </resources>

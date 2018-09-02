@@ -81,8 +81,7 @@
   <string name="settings">Nastavitve</string>
   <string name="about">O</string>
   <string name="contributors">Sodelavci</string>
-  <string name="help">Pomoč</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Izključeno</string>
   <string name="core">Jedro %d</string>
   <string name="gpu_freq">Frekvenca GPE</string>

@@ -28,8 +28,7 @@
   <!-- Menus -->
   <string name="about">Om</string>
   <string name="contributors">Bidragsydere</string>
-  <string name="help">Hjælp</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Offline</string>
   <string name="uptime">Oppetid</string>
   <!-- Device -->

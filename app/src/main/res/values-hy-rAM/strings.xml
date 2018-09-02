@@ -71,8 +71,7 @@
   <string name="settings">Կարգավորումներ</string>
   <string name="about">Մասին</string>
   <string name="contributors">Մասնակիցները</string>
-  <string name="help">Օգնություն</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Անցանց</string>
   <string name="core">Միջուկ %d</string>
   <string name="gpu_freq">GPU Հաճախականությունը</string>

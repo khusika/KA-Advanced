@@ -95,8 +95,7 @@
   <string name="settings">सेटिंग</string>
   <string name="about">बारे में</string>
   <string name="contributors">सहयोगी</string>
-  <string name="help">मदद</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">ऑफ़लाइन</string>
   <string name="core">कोर %d</string>
   <string name="gpu_freq">जीपीयू फ्रीक्वेंसी</string>
@@ -569,6 +568,4 @@
   <!-- About -->
   <!-- Contributors -->
   <!-- Help -->
-  <string name="add_new_features">आप x और y सुविधा जोड़ सकता है?</string>
-  <string name="add_new_features_summary">यह कहना मुश्किल है। मैं सभी सुविधाओं को जोड़ने के लिए प्रयास करूंगा, लेकिन यह ऐप को सभी उपकरणों के लिए सार्वभौमिक बनाना मुश्किल है।</string>
 </resources>

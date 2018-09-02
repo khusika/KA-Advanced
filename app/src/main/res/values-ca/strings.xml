@@ -90,8 +90,7 @@
   <string name="settings">Configuració</string>
   <string name="about">Sobre</string>
   <string name="contributors">Col·laboradors</string>
-  <string name="help">Ajuda</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Desconnectat</string>
   <string name="core">Nucli %d</string>
   <string name="gpu_freq">Freqüència GPU</string>

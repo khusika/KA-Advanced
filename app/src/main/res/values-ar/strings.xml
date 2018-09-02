@@ -97,8 +97,7 @@
   <string name="settings">الاعدادات</string>
   <string name="about">حول</string>
   <string name="contributors">المساهمون</string>
-  <string name="help">مساعدة</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">غير متصل</string>
   <string name="core">نواة %d</string>
   <string name="gpu_freq">تردد معالج الرسومات</string>

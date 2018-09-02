@@ -83,8 +83,7 @@
   <string name="settings">Inställningar</string>
   <string name="about">Om</string>
   <string name="contributors">Medhjälpare</string>
-  <string name="help">Hjälp</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Ej uppkopplad</string>
   <string name="core">Kärna %d</string>
   <string name="gpu_freq">GPU-Frekvens</string>

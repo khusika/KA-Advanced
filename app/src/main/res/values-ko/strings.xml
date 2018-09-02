@@ -96,8 +96,7 @@
   <string name="settings">설정</string>
   <string name="about">이 앱에 대해서..</string>
   <string name="contributors">도움을 주신 분들</string>
-  <string name="help">도움말</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">꺼져있음</string>
   <string name="core">%d 번째 코어</string>
   <string name="gpu_freq">GPU 클럭</string>
@@ -707,14 +706,4 @@
   <!-- Contributors -->
   <string name="no_internet">인터넷 연결 상태를 확인해주십시오!</string>
   <!-- Help -->
-  <string name="misspelled">왜 \"Auditor\"라고 오타가 나셨나요?</string>
-  <string name="misspelled_summary">Adiutor는 라틴어로 도우미를 뜻합니다.</string>
-  <string name="have_to_donate">프리미언 기능을 사용하려면 기부 해야 하나요?</string>
-  <string name="cpu_freq_not_sticking">설정한 CPU 클럭으로 변경되지 않는데 왜 그런가요?</string>
-  <string name="feature_not_appearing">왜 X와 Y라는 기능이 보이지 않나요?</string>
-  <string name="feature_not_appearing_summary">기기에서 지원되는 기능만 표시 됩니다!</string>
-  <string name="feature_function">X라는 기능이 무엇인가요?</string>
-  <string name="feature_function_summary">이 기능이 무엇을 하는지 모른다면 그냥 건드리지 마세요. 고가의 기기를 가지고 놀기 전에 제대로 된 연구를 하시기 바랍니다.</string>
-  <string name="add_new_features">X와 Y라는 기능을 추가해 주실 수 있으신가요?</string>
-  <string name="add_new_features_summary">그건 어렵습니다. 모든 기능을 추가하려고 노력하지만, 이 앱이 모든 기기를 지원하도록 하는 것은 어렵습니다.</string>
 </resources>

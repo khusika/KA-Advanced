@@ -96,8 +96,7 @@
   <string name="settings">Opțiuni</string>
   <string name="about">Despre</string>
   <string name="contributors">Contribuitori</string>
-  <string name="help">Ajutor</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Deconectat</string>
   <string name="core">Core %d</string>
   <string name="gpu_freq">Frecvența GPU</string>

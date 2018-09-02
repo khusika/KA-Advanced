@@ -95,8 +95,7 @@
   <string name="settings">Ustawienia</string>
   <string name="about">O aplikacji</string>
   <string name="contributors">Współautorzy</string>
-  <string name="help">Pomoc</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Offline</string>
   <string name="core">Rdzeń %d</string>
   <string name="gpu_freq">Częstotliwość GPU</string>
@@ -831,16 +830,4 @@
   <string name="commits">%d commit\'a/ów</string>
   <string name="no_internet">Sprawdź swoje połączenie internetowe!</string>
   <!-- Help -->
-  <string name="misspelled">Czemu popełniłeś błąd w \"Adiutor\"?</string>
-  <string name="misspelled_summary">Adiutor w łacinie oznacza pomocnik.</string>
-  <string name="have_to_donate">Czy muszę kupić wersje donate by móc korzystać z funkcji premium?</string>
-  <string name="have_to_donate_summary">Nie, kod źródłowy tej aplikacji jest otwarty. Możesz bez problemu ją skompilować. Funkcje premium są domyślnie włączone gdy kompilujesz wersje debug, więc nie ma potrzeby modyfikowania kodu źródłowego.</string>
-  <string name="cpu_freq_not_sticking">Czemu ustalona przez ze mnie max/min częstotliwość procesora zmienia się?</string>
-  <string name="cpu_freq_not_sticking_summary">Przyczyn tego może być wiele. Wiele kernel\'i ma własne hotplug\'i, który kontrolują częstotliwość procesora, CyanogenMod ma własną implementacje CPU Boost, która reguluje częstotliwość. Sugeruję, byś nie zmieniał częstotliwość CPU i pozwolił kernel\'owi robić swoje. Tyczy się to również innych funkcji! Jeżeli twoje ustawienia samoczynnie się zmieniają, oznacza to, że kernel/system nie pozwoli Ci na ich zmianę.</string>
-  <string name="feature_not_appearing">Czemu funkcje x i y się nie pokazują?</string>
-  <string name="feature_not_appearing_summary">Tylko funkcje, które twoje urządzenie wspiera są pokazywane!</string>
-  <string name="feature_function">Co robi funkcja x?</string>
-  <string name="feature_function_summary">Jeśli nie wiesz co dana opcja robi, po prostu z niej nie korzystaj. Proszę o dokładne wyszukanie na czym polega ta opcja, nim będziesz z niej korzystać na twoim urządzeniu.</string>
-  <string name="add_new_features">Mógłbyś dodać funkcje x i y?</string>
-  <string name="add_new_features_summary">Ciężko powiedzieć. Staram się dodawać wszystkie funkcje, lecz ciężko jest utworzyć uniwersalną aplikację dla wszystkich urządzeń.</string>
 </resources>

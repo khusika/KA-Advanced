@@ -96,8 +96,7 @@
   <string name="settings">Nastavenia</string>
   <string name="about">O aplikácií</string>
   <string name="contributors">Prispievatelia</string>
-  <string name="help">Nápoveda</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Offline</string>
   <string name="core">Jadro %d</string>
   <string name="gpu_freq">Frekvencia GPU</string>
@@ -850,16 +849,4 @@
   <string name="commits">Zmeny: %d</string>
   <string name="no_internet">Skontrolujte internetové pripojenie!</string>
   <!-- Help -->
-  <string name="misspelled">Nie je „Adiutor“ preklep?</string>
-  <string name="misspelled_summary">Výraz „adiutor“ pochádza z latinčiny a znamená „pomocník“.</string>
-  <string name="have_to_donate">Ak chcem používať prémiové funkcie, musím prispieť na vývoj?</string>
-  <string name="have_to_donate_summary">Nie, táto aplikácia je open source. Ak chcete, môžete si ju sami zostaviť. Prémiové funkcie sú v predvolenom stave povolené akonáhle vykonáte zostavenie a ladenie apk balíčka, takže nie je potreba prepisovať jediný riadok kódu.</string>
-  <string name="cpu_freq_not_sticking">Prečo je mnou nastavená frekvencia procesora ignorovaná?</string>
-  <string name="cpu_freq_not_sticking_summary">To môže byť z mnohých dôvodov. Mnoho kernelov (jadier) má dnes vlastný hotplugging systém, ktorý riadi frekvenciu CPU a CyanogenMod má vlastnú CPU Boost implementáciu, ktorú reguluje frekvenciu. Odporúčam nesiahať na CPU frekvencie a nechať robiť kernel jeho prácu. To platí aj pre ostatné funkcie! Ak nedrží nastavené, tak je to tým, že kernel / systém Vám nechce umožniť ich meniť.</string>
-  <string name="feature_not_appearing">Prečo sa nezobrazujú funkcie X a Y?</string>
-  <string name="feature_not_appearing_summary">Zobrazené sú len funkcie podporované vašim zariadením!</string>
-  <string name="feature_function">Čo robí funkcia X?</string>
-  <string name="feature_function_summary">Ak neviete, čo daná funkcia robí, jednoducho na ňu nesiahajte. Predtým, než sa začnete hrať so svojím drahým hardvérom, nájdite si radšej viac informácií.</string>
-  <string name="add_new_features">Bolo by možné pridať funkciu X či Y?</string>
-  <string name="add_new_features_summary">Ťažko povedať. Snažím sa pridať čo najviac funkcií, ale je ťažké urobiť aplikáciu univerzálne pre všetky zariadenia.</string>
 </resources>

@@ -88,8 +88,7 @@
   <string name="settings">Definições</string>
   <string name="about">Sobre</string>
   <string name="contributors">Colaboradores</string>
-  <string name="help">Ajuda</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Off-line</string>
   <string name="core">Núcleo %d</string>
   <string name="gpu_freq">Frequência da GPU</string>
@@ -636,9 +635,4 @@
   <!-- Contributors -->
   <string name="no_internet">Por favor, verifique a sua ligação à Internet!</string>
   <!-- Help -->
-  <string name="misspelled">Porque é que \"Auditor\" está mal escrito?</string>
-  <string name="misspelled_summary">Adiutor é latim e significa auxiliar.</string>
-  <string name="feature_function">O que é que a característica x faz?</string>
-  <string name="add_new_features">Pode adicionar o recurso x e y?</string>
-  <string name="add_new_features_summary">É difícil dizer. Eu tento adicionar todos os recursos, mas é difícil fazer este app universal para todos os dispositivos.</string>
 </resources>

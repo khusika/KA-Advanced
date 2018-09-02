@@ -92,8 +92,7 @@
   <string name="settings">Ρυθμίσεις</string>
   <string name="about">Σχετικά με την εφαρμογή</string>
   <string name="contributors">Χορηγοί</string>
-  <string name="help">Βοήθεια</string>
-  <!-- Overall -->
+    <!-- Overall -->
   <string name="offline">Αποσυνδεδεμένος</string>
   <string name="core">Πυρήνας %d</string>
   <string name="gpu_freq">Συχνότητα της GPU</string>
@@ -387,9 +386,4 @@
   <!-- Contributors -->
   <string name="no_internet">Παρακαλώ ελέγξτε τη σύνδεσή σας στο internet!</string>
   <!-- Help -->
-  <string name="misspelled">Γιατί λανθασμένα «Adiutor»;</string>
-  <string name="misspelled_summary">Το Adiutor είναι λατινικό και σημαίνει βοηθός.</string>
-  <string name="feature_function">Τι κάνει το χαρακτηριστικό x;</string>
-  <string name="add_new_features">Θα μπορούσες να προσθέσεις το x και y χαρακτηριστικό;</string>
-  <string name="add_new_features_summary">Μου είναι δύσκολο να το πω. Προσπαθώ να προσθέτω όλα τα χαρακτηριστικά, αλλά είναι δύσκολο να γίνει αυτη η εφαρμογή καθολική για όλες τις συσκευές.</string>
 </resources>
