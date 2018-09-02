@@ -60,8 +60,7 @@ public class PowerSuspend {
     }
 
     public static boolean hasOldState() {
-        return Utils.existFile(STATE) && Utils.existFile(VERSION)
-                && Utils.readFile(VERSION).contains("1.2");
+        return Utils.existFile(STATE);
     }
 
     public static void setMode(int value, Context context) {
