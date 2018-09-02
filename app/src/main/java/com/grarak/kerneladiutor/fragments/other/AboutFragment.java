@@ -79,7 +79,7 @@ public class AboutFragment extends RecyclerViewFragment {
             ((TextView) rootView.findViewById(R.id.about_me)).setText(getString(R.string.about_me, 21));
 
             rootView.findViewById(R.id.image).setOnClickListener(view
-                    -> Utils.launchUrl("https://github.com/Grarak", requireActivity()));
+                    -> Utils.launchUrl("https://github.com/khusika", requireActivity()));
             return rootView;
         }
     }
